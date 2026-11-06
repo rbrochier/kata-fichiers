@@ -15,3 +15,12 @@ const auRevoir = "Au revoir Ada !"
 writeFileSync("bonjour.txt", auRevoir)
 const contenuAuRevoir = readFileSync("bonjour.txt", "utf8")
 console.log(contenuAuRevoir)
+
+/// exercice 3 /// 
+
+const course = ["pain","lait", "pommes"]
+writeFileSync("course.txt", course.join("\n"))
+const contenuCourse = readFileSync("course.txt", "utf8")
+console.log(contenuCourse)
+
+
